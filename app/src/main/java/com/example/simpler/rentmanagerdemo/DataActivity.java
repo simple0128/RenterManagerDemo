@@ -17,6 +17,7 @@ import java.util.HashMap;
  */
 public class DataActivity extends Activity{
 
+    //Nothing here
     Context context;
     Button btn_back, btn_more;
     TextView room_number, data_name, data_phone, data_time, data_fee;
