@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RentManagerDemo</string>
+    <string name="test">Test</string>
+    <string name="water_number">本月水表读数</string>
+    <string name="electric_number">本月电表读数</string>
+    <string name="rent_fee">    本月房租：</string>
+    <string name="more">More</string>
+    <string name="back">Back</string>
+    <string name="renter_name">住户姓名：</string>
+    <string name="renter_phone">联系方式：</string>
+    <string name="renter_time">租期：</string>
+    <string name="renter_fee">每月租费：</string>
+    <string name="slash">/</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/click_list">
+
+    <TextView
+        android:padding="4sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="701"
+        android:textSize="48sp"
+        android:id="@+id/room_number"/>
+
+
+    <LinearLayout
+        android:padding="4sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:padding="4sp"
+            android:id="@+id/renter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="testName"/>
+        <TextView
+            android:padding="4sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/renter_phone"
+            android:textSize="16sp"
+            android:text="XXX-XXXX-XXXX"/>
+    </LinearLayout>
+
+</LinearLayout>

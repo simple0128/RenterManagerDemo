@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dd1702ff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f569b4">
+
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="48sp"
+            android:layout_height="40sp"
+            android:layout_weight="0"
+            android:text="@string/back"
+            android:textSize="8sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/data_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/test"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/more_button"
+            android:layout_width="48sp"
+            android:layout_height="40sp"
+            android:layout_gravity="end"
+            android:layout_weight="0"
+            android:text="@string/more"
+            android:textSize="8sp"
+            tools:ignore="SmallSp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#eeeeee"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/LocationText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/renter_name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/LocationText2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LocationText1"
+            android:layout_margin="4dp"
+            android:text="@string/renter_phone"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/LocationText3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LocationText2"
+            android:layout_margin="4dp"
+            android:text="@string/renter_time"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LocationText3"
+            android:layout_margin="4dp"
+            android:text="@string/renter_fee"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/data_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_toEndOf="@+id/LocationText1"
+            android:layout_toRightOf="@+id/LocationText1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/data_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/data_name"
+            android:layout_margin="4dp"
+            android:layout_toEndOf="@+id/LocationText1"
+            android:layout_toRightOf="@+id/LocationText1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/data_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/data_phone"
+            android:layout_margin="4dp"
+            android:layout_toEndOf="@+id/LocationText1"
+            android:layout_toRightOf="@+id/LocationText1"
+
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/data_fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/data_time"
+            android:layout_margin="4dp"
+            android:layout_toEndOf="@+id/LocationText1"
+            android:layout_toRightOf="@+id/LocationText1"
+
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_view_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

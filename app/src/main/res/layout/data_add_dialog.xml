@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_name"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_phone"
+        android:hint="RentTime"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_time"
+        android:hint="RentFee"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_edit_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_fee"
+        android:layout_toStartOf="@id/PositionText"
+        android:layout_toLeftOf="@+id/PositionText"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/PositionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp"/>
+
+    <Button
+        android:id="@+id/btn_edit_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_fee"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/PositionText"
+        android:layout_toRightOf="@+id/PositionText"
+        android:text="Cancel"/>
+</RelativeLayout>

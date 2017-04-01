@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <item
+        android:id="@+id/btn_menu_init"
+        android:title="InitIt!!!!"
+        />
+
+    <item
+        android:id="@+id/btn_menu_drop"
+        android:title="DropIt!!!!"
+        />
+    <item
+        android:id="@+id/btn_menu_exit"
+        android:title = "Exit..."
+        />
+</menu>
